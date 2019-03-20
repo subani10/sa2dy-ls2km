@@ -3,6 +3,8 @@
 
 This repository is a skeleton Python package that students in PSYC 5270 can use to get started on their data exploration assignments.
 
+## Getting started
+
 Start by cloning the repository: `git clone https://github.com/melizalab/comp-neurosci-skeleton.git`
 
 This will create a new directory, `comp-neurosci-skeleton`, containing the following items:
@@ -28,4 +30,18 @@ git remote add origin https://github.com/dmeliza/dummy.git
 git push -u origin master
 ```
 
-Eventually you'll want to edit this file to describe your actual project.
+## Next steps
+
+Edit `data/README.md` to describe how to retrieve data. Better yet, write a script.
+
+Edit `requirements.txt` to add any needed dependencies, then create a virtual environment and install the dependencies as follows:
+
+``` shell
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+Install the project in development mode by running `python setup.py develop`. If you use notebooks, this will ensure that you can access your modules.
+
+Edit this file to describe your actual project.
