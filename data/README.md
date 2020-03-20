@@ -11,5 +11,5 @@ def data_unpack(data):
     unpacks the given .gz file. The argument is the file name (ex: s1.tar.gz)
     """  
     tar -zxvf data
-```   
+```
     
